@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './Component/Menu';
+import Hero from './Component/Hero';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+<>
+<Menu/>
+<Hero/>
+</>     
   );
 }
 
